@@ -1,0 +1,25 @@
+
+<div class="col-12 col-sm-12">
+  <h4>Listado de Gatos <span class="badge bg-secondary">¡Adopta!</span> </h4>
+  <table class="table">
+    <thead class="table-dark">
+      <th scope="col">Nombre</th>
+      <th scope="col">Origen</th>
+      <th scope="col">Detalle</th>
+    </thead>
+    <tbody>
+      <td>{{ listado.nombre }}</td>
+      <td>{{ listado.origen }}</td>
+      <td><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+       Detalle
+      </button></td>
+    </tbody>
+  </table>
+
+  <app-detalle>
+  </app-detalle>
+
+
+</div>
+
+
